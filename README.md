@@ -20,22 +20,10 @@ MONGODB_URI=mongodb://localhost:27017/carnet
 PORT=3000
 SECRET=YOUR_SECRET_HERE
 
-3- Create proxy-config.json in the frontend root directory (angular8) and setup the proxy as follow
 
-{
-  "/":{   
-  
-    "target": "http://localhost:3000/",
-    
-    "secure": false   }  
-}
-
-3- Start the back-end server using npm start or nodemon
+3- Start the back-end server using npm start or nodemon ( you should install nodemon to restart auto our server when we change code)
 
 node start
 
-4- Start the angular server using the proxy
-
-
-cd frontend
-npm start
+4- Start the server we do ng build then now we can use angular and nodejs  at port 3000 then we can run our application 
+  "http://localhost:3000/"
