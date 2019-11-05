@@ -23,10 +23,13 @@ SECRET=YOUR_SECRET_HERE
 3- Create proxy-config.json in the frontend root directory (angular8) and setup the proxy as follow
 
 {
-  "/": {
+  "/":
+  {
     "target": "http://localhost:3000/",
+    
     "secure": false
   }
+  
 }
 
 3- Start the back-end server using npm start or nodemon
