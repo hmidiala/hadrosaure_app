@@ -1,4 +1,4 @@
-# hadrosaure_app
+# Viset this application : hadrosaure_app  https://hadrosaure.herokuapp.com/#/  
 CRUD  NodeJs Angular8 
  App built with MEAN stack.
 
